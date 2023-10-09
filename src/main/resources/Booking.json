@@ -1,0 +1,11 @@
+{
+  "firstname" : "Jane",
+  "lastname" : "Doe",
+  "totalprice" : 235,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-07-15",
+    "checkout" : "2023-08-15"
+  },
+  "additionalneeds" : "Allow pets"
+}

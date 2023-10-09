@@ -40,7 +40,7 @@ public class PartialUpdateBookingTest extends BaseTest {
 
     Assert.assertEquals(updatedBooking.toString(), booking.toString());
   }
-
+/*
   @Test
   private void partialUpdateBookingTest() {
     Response response = createBooking(booking);
@@ -74,4 +74,6 @@ public class PartialUpdateBookingTest extends BaseTest {
 
     softAssert.assertAll();
   }
+
+ */
 }

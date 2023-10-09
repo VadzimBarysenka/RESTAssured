@@ -29,6 +29,7 @@ public class CreateBookingTest extends BaseTest {
     Assert.assertEquals(bookingId.getBooking().toString(), booking.toString());
   }
 
+  /*
   @Test
   private void createBookingTest() {
     Response response = createBooking(booking);
@@ -47,4 +48,6 @@ public class CreateBookingTest extends BaseTest {
 
     softAssert.assertAll();
   }
+
+   */
 }

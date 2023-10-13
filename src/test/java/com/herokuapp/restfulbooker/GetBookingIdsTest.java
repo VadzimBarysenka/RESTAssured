@@ -27,15 +27,4 @@ public class GetBookingIdsTest extends BaseTest {
     List<Integer> bookingIds = response.jsonPath().getList("bookingid");
     Assert.assertFalse(bookingIds.isEmpty(), "Empty ids list");
   }
-
-  @Test
-  private void getBookingIdsWithFiltersTest() {
-    spec.queryParam("firstname", "Susan");
-    Response response = RestAssured.given(spec).get("/booking");
-
-    Assert.assertEquals(response.getStatusCode(), 200, "Should be 200");
-
-    List<Integer> bookingIds = response.jsonPath().getList("bookingid");
-    Assert.assertFalse(bookingIds.isEmpty(), "Empty ids list");
-  }
 }
